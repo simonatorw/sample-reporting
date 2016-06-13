@@ -1,0 +1,87 @@
+html {
+	height: 100%;
+}
+body {
+	font-size: 16px;
+	font-family: verdana, sans-serif;
+	color: cyan;
+	margin: 0;
+	background-color: #000;
+	height: 100%;
+}
+.mainHeader {
+	background-color: #606;
+	overflow: hidden;
+}
+h1 {
+	font-size: 1.2em;
+	color: #ddd;
+	margin: 10px;
+}
+#queryContent {
+	height: calc(100% - 43px);
+}
+.queryContainer {
+	height: 100%;
+}
+.mainNav {
+	position: absolute;
+	width: 180px;
+}
+.content {
+	margin-left: 180px;
+	border-left: 3px solid purple;
+	height: 100%;
+}
+.navTitle {
+	font-weight: bold;
+}
+.navList {
+	list-style: none;
+	margin: 0;
+	padding: 3px 0 3px 18px;
+}
+.navItem, .navItem:visited {
+	text-decoration: none;
+	color: cyan;
+	margin-bottom: 10px;
+}
+.navItem:hover, .navItem:visited:hover,
+.link:hover, .link:visited:hover {
+	color: red;
+}
+.navItem.selected, .navItem:visited.selected {
+	color: red;
+}
+.link, .link:visited {
+	color: cyan;
+	text-decoration: none;
+}
+.right {
+	float: right;
+	font-weight: normal;
+	font-size: .9em;
+}
+.grid {
+	border-spacing: 0;
+	width: 100%;
+}
+.gridCaption {
+	text-align: left;
+	color: red;
+	padding-bottom: 10px;
+}
+.gridHeader {
+	text-align: left;
+	padding-right: 20px;
+}
+.gridItem {
+	padding-right: 20px;
+	color: yellow;
+}
+.gridItem.momey {
+	text-align: right;
+}
+tbody tr:nth-child(odd) {
+	background-color: #666;
+}
