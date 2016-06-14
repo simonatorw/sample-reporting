@@ -2,15 +2,15 @@ html {
 	height: 100%;
 }
 body {
-	font-size: 16px;
+	font-size: 12px;
 	font-family: verdana, sans-serif;
-	color: cyan;
+	color: #333;
 	margin: 0;
-	background-color: #000;
+	background-color: #fff;
 	height: 100%;
 }
 .mainHeader {
-	background-color: #606;
+	background-color: #003;
 	overflow: hidden;
 }
 h1 {
@@ -19,7 +19,7 @@ h1 {
 	margin: 10px;
 }
 #queryContent {
-	height: calc(100% - 43px);
+	height: calc(100% - 37px);
 }
 .queryContainer {
 	height: 100%;
@@ -27,11 +27,15 @@ h1 {
 .mainNav {
 	position: absolute;
 	width: 180px;
+	padding: 10px;
+	box-sizing: border-box;
 }
 .content {
 	margin-left: 180px;
-	border-left: 3px solid purple;
+	border-left: 3px solid #006;
 	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
 }
 .navTitle {
 	font-weight: bold;
@@ -43,18 +47,18 @@ h1 {
 }
 .navItem, .navItem:visited {
 	text-decoration: none;
-	color: cyan;
+	color: #039;
 	margin-bottom: 10px;
 }
 .navItem:hover, .navItem:visited:hover,
 .link:hover, .link:visited:hover {
-	color: red;
+	color: orange;
 }
 .navItem.selected, .navItem:visited.selected {
-	color: red;
+	color: orange;
 }
 .link, .link:visited {
-	color: cyan;
+	color: #039;
 	text-decoration: none;
 }
 .right {
@@ -68,7 +72,7 @@ h1 {
 }
 .gridCaption {
 	text-align: left;
-	color: red;
+	color: orange;
 	padding-bottom: 10px;
 }
 .gridHeader {
@@ -76,12 +80,12 @@ h1 {
 	padding-right: 20px;
 }
 .gridItem {
-	padding-right: 20px;
-	color: yellow;
+	padding: 3px 10px;
+	color: #333;
 }
 .gridItem.momey {
 	text-align: right;
 }
 tbody tr:nth-child(odd) {
-	background-color: #666;
+	background-color: #ddd;
 }
